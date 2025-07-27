@@ -1,0 +1,2721 @@
+/* Body */
+#body {
+  background-color: black;
+}
+
+#topDivider {
+  width: 70%;
+  height: 6px;
+  background-color: white;
+  margin: auto;
+}
+
+#bottomDivider {
+  width: 70%;
+  height: 6px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#midDivider {
+  width: 100%;
+  height: 6px;
+  background-color: white;
+}
+
+/* block1 TOTORITHM */
+#block1 {
+  color: white;
+  background-color: brown;
+  width: 70%;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#wholeDiv {
+  width: 70%;
+  background-color: black;
+  margin: auto;
+  display: flex;
+  margin-bottom: 0px;
+  overflow: auto;
+}
+
+.verticalDivider {
+  width: 0.5%;
+  background-color: white;
+}
+
+/* block2 Last 20 results */
+#block2 {
+  background-color: black;
+  width: 49.25%;
+  overflow: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#B2Div1 {
+  color: yellow;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#B2Div2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#th1,
+#th2,
+#th3 {
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#th4,
+#th5,
+#th6,
+#th7,
+#th8,
+#th9,
+#th11 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  width: 30px;
+}
+
+#th1 {
+  width: 30px;
+}
+
+#th2 {
+  width: 120px;
+}
+
+#th3 {
+  width: 60px;
+}
+
+.wn {
+  width: 28px;
+  height: 28px;
+  font-size: 15px;
+  text-align: center;
+  border: 0px;
+  padding: 0px;
+  margin-right: 1px;
+  margin-left: 1px;
+  border-radius: 1px;
+  background-color: orange;
+  color: black;
+}
+
+.serialInput,
+.dateInput,
+.drawInput {
+  height: 28px;
+  font-size: 15px;
+  text-align: left;
+  border: 0px;
+  padding: 0px;
+  margin-right: 1px;
+  margin-left: 1px;
+  border-radius: px;
+  background-color: white;
+  color: black;
+}
+
+/* #th10 {
+  width: 2px;
+} */
+
+/* td,
+input {
+  width: 30px;
+} */
+
+.serialInput {
+  width: 30px;
+  padding-left: 3px;
+}
+
+.dateInput {
+  width: 120px;
+  padding-left: 3px;
+}
+
+.drawInput {
+  width: 60px;
+  padding-left: 3px;
+}
+
+.space {
+  width: 2px;
+  height: 26px;
+  border: 0px;
+  padding: 0px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.spaceTD {
+  width: 2px;
+}
+
+.highlight {
+  background-color: greenyellow !important;
+}
+
+/* tips */
+#B2Div3 {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/* block2 absent numbers */
+#B2Div41 {
+  color: yellow;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#B2Div42 {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* Use in both absent numbers and random pick numbers */
+.number-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-left: 20px;
+  max-width: 350px;
+}
+
+.number-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 2px;
+  background-color: orange;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  border: 0px;
+  padding: 0px;
+  align-content: center;
+}
+
+/* contains block6 and block5 */
+#rightDiv {
+  width: 49.25%;
+  height: 100%;
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* block6 random pick */
+#block6 {
+  background-color: black;
+  width: 100%;
+  overflow: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#B6Div2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#B6Div3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#B6Div4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  margin-right: 20px;
+}
+
+/* B6Div 2 grid container */
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 35px);
+  gap: 5px;
+}
+
+/* for the 1-49 button */
+.number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: black;
+  font-size: 16px;
+  padding: 0px;
+  text-align: center;
+  align-content: center;
+  border: 1px solid white;
+  cursor: pointer;
+  user-select: none;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+/* for the selected number before random pick */
+.picks {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-size: 16px;
+  padding: 0px;
+  text-align: center;
+  align-content: center;
+  border: 1px solid white;
+  cursor: default;
+  user-select: none;
+  background-color: brown;
+}
+
+/* in selectAll() and deselectAll() */
+.number.selected {
+  background-color: brown;
+  color: white;
+  border-color: white;
+}
+
+/* B6Div3 */
+.selectButton {
+  background-color: yellow;
+  font-size: 14px;
+}
+
+/* B6Div4 */
+#goButton {
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+  padding: 0px;
+  border: 0px;
+  background-color: greenyellow;
+  color: black;
+}
+
+.B6p {
+  margin-bottom: 5px;
+}
+
+#pickHowMany {
+  width: 50px;
+  height: 30px;
+  border-radius: 2px;
+  padding-left: 5px;
+}
+
+.borderGlow {
+  border: 2px solid brown;
+}
+
+/* B6Div5 random pick label and results */
+
+#B6Div51 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: yellow;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#B6Div52 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* block5 frequency table */
+#block5 {
+  background-color: black;
+  width: 100%;
+  overflow: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#B5Div1 {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#B5Div2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#numberOfDraws {
+  width: 50px;
+  height: 30px;
+  border-radius: 2px;
+  padding-left: 5px;
+}
+
+#gogoButton {
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+  background-color: greenyellow;
+  color: black;
+  padding: 0px;
+  border: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.atrpButton {
+  font-size: 12px;
+  color: black;
+  background-color: yellow;
+}
+
+#B5Div3 {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#B5Div2 th {
+  font-size: 16px;
+}
+
+#B5Div2 td {
+  font-size: 16px;
+}
+
+#copyright {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+#footer {
+  position: fixed;
+  margin-top: 15px;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  /* background-color: brown; */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+}
+
+@media only screen and (max-width: 1600px) {
+  #topDivider {
+    width: 75%;
+  }
+
+  #bottomDivider {
+    width: 75%;
+  }
+
+  /* block1 TOTORITHM */
+  #block1 {
+    background-color: brown;
+    width: 75%;
+  }
+
+  #wholeDiv {
+    width: 75%;
+  }
+
+  #copyright {
+    font-size: 14px;
+  }
+
+  #footer {
+    width: 75%;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  #topDivider {
+    width: 85%;
+  }
+
+  #bottomDivider {
+    width: 85%;
+  }
+  #block1 {
+    background-color: brown;
+    width: 85%;
+  }
+
+  #wholeDiv {
+    width: 85%;
+  }
+
+  #copyright {
+    font-size: 14px;
+  }
+
+  #footer {
+    width: 85%;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #topDivider {
+    width: 90%;
+    height: 5px;
+  }
+
+  #bottomDivider {
+    width: 90%;
+    height: 5px;
+    margin-bottom: 20px;
+  }
+
+  #midDivider {
+    width: 100%;
+    height: 5px;
+  }
+
+  /* block1 TOTORITHM */
+  #block1 {
+    width: 90%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    background-color: brown;
+  }
+
+  #wholeDiv {
+    width: 90%;
+    display: flex;
+    margin-bottom: 0px;
+  }
+
+  .verticalDivider {
+    width: 0.5%;
+  }
+
+  /* block2 Last 20 results */
+  #block2 {
+    width: 49.25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B2Div1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-bottom: 4px;
+    margin-left: 17px;
+  }
+
+  #B2Div2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 17px;
+  }
+
+  #th1,
+  #th2,
+  #th3 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  #th4,
+  #th5,
+  #th6,
+  #th7,
+  #th8,
+  #th9,
+  #th11 {
+    font-size: 13px;
+    font-weight: 400;
+    width: 26px;
+  }
+
+  #th1 {
+    width: 26px;
+  }
+
+  #th2 {
+    width: 100px;
+  }
+
+  #th3 {
+    width: 50px;
+  }
+
+  .wn {
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+  }
+
+  .serialInput,
+  .dateInput,
+  .drawInput {
+    height: 24px;
+    font-size: 13px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+  }
+
+  /* #th10 {
+    width: 2px;
+  }
+
+  td,
+  input {
+    width: 26px;
+  } */
+
+  .serialInput {
+    width: 26px;
+    padding-left: 3px;
+  }
+
+  .dateInput {
+    width: 100px;
+    padding-left: 3px;
+  }
+
+  .drawInput {
+    width: 50px;
+    padding-left: 3px;
+  }
+
+  .space {
+    width: 2px;
+    height: 22px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+
+  .spaceTD {
+    width: 2px;
+  }
+
+  /* tips */
+  #B2Div3 {
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 17px;
+  }
+
+  /* block2 absent numbers */
+  #B2Div41 {
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 17px;
+  }
+
+  #B2Div42 {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 17px;
+  }
+
+  /* Use in both absent numbers and random pick numbers */
+  .number-container {
+    gap: 6px;
+    margin-top: 17px;
+    margin-left: 17px;
+    max-width: 300px;
+  }
+
+  .number-box {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    font-size: 13px;
+    border: 0px;
+    padding: 0px;
+  }
+
+  /* contains block6 and block5 */
+  #rightDiv {
+    width: 49.25%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  /* block6 random pick */
+  #block6 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B6Div2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  #B6Div3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 17px;
+  }
+
+  #B6Div4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 17px;
+    font-size: 15px;
+  }
+
+  /* B6Div 2 grid container */
+  .number-grid {
+    grid-template-columns: repeat(7, 30px);
+    gap: 5px;
+  }
+
+  /* for the 1-49 button */
+  .number {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid white;
+    margin-bottom: 4px;
+  }
+
+  /* for the selected number before random pick */
+  .picks {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid white;
+  }
+
+  /* B6Div3 */
+  .selectButton {
+    font-size: 13px;
+  }
+
+  /* B6Div4 */
+  #goButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .B6p {
+    margin-bottom: 4px;
+  }
+
+  #pickHowMany {
+    width: 45px;
+    height: 27px;
+    border-radius: 2px;
+    padding-left: 4px;
+  }
+
+  .borderGlow {
+    border: 2px solid brown;
+  }
+
+  /* B6Div5 random pick label and results */
+  #B6Div51 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 15px;
+    margin-left: 17px;
+  }
+
+  #B6Div52 {
+    margin-top: 4px;
+    margin-bottom: 17px;
+    margin-left: 17px;
+  }
+
+  /* block5 frequency table */
+  #block5 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B5Div1 {
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 4px;
+    margin-left: 17px;
+  }
+
+  #B5Div2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+
+  #numberOfDraws {
+    width: 45px;
+    height: 27px;
+    border-radius: 2px;
+    padding-left: 4px;
+  }
+
+  #gogoButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .atrpButton {
+    font-size: 11px;
+  }
+
+  #B5Div3 {
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 17px;
+    margin-left: 17px;
+  }
+
+  #B5Div2 th {
+    font-size: 14px;
+  }
+
+  #B5Div2 td {
+    font-size: 14px;
+  }
+
+  #copyright {
+    font-size: 12px;
+  }
+
+  #footer {
+    width: 90%;
+    padding: 8px 0;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #topDivider {
+    width: 90%;
+    height: 5px;
+  }
+
+  #bottomDivider {
+    width: 90%;
+    height: 5px;
+    margin-bottom: 20px;
+  }
+
+  #midDivider {
+    width: 100%;
+    height: 5px;
+  }
+
+  /* block1 TOTORITHM */
+  #block1 {
+    width: 90%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    background-color: brown;
+  }
+
+  #wholeDiv {
+    width: 90%;
+    display: flex;
+    margin-bottom: 0px;
+  }
+
+  .verticalDivider {
+    width: 0.5%;
+  }
+
+  /* block2 Last 20 results */
+  #block2 {
+    width: 49.25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B2Div1 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B2Div2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #th1,
+  #th2,
+  #th3 {
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  #th4,
+  #th5,
+  #th6,
+  #th7,
+  #th8,
+  #th9,
+  #th11 {
+    font-size: 11px;
+    font-weight: 400;
+    width: 22px;
+  }
+
+  #th1 {
+    width: 22px;
+  }
+
+  #th2 {
+    width: 80px;
+  }
+
+  #th3 {
+    width: 40px;
+  }
+
+  .wn {
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+  }
+
+  .serialInput,
+  .dateInput,
+  .drawInput {
+    height: 20px;
+    font-size: 11px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+  }
+
+  /* #th10 {
+    width: 1.5px;
+  }
+
+  td,
+  input {
+    width: 22px;
+  } */
+
+  .serialInput {
+    width: 22px;
+    padding-left: 2px;
+  }
+
+  .dateInput {
+    width: 80px;
+    padding-left: 2px;
+  }
+
+  .drawInput {
+    width: 40px;
+    padding-left: 2px;
+  }
+
+  .space {
+    width: 2px;
+    height: 18px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+
+  .spaceTD {
+    width: 2px;
+  }
+
+  /* tips */
+  #B2Div3 {
+    font-size: 11px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  /* block2 absent numbers */
+  #B2Div41 {
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B2Div42 {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  /* Use in both absent numbers and random pick numbers */
+  .number-container {
+    gap: 5px;
+    margin-left: 14px;
+    max-width: 250px;
+  }
+
+  .number-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 1.5px;
+    font-size: 11px;
+    border: 0px;
+    padding: 0px;
+  }
+
+  /* contains block6 and block5 */
+  #rightDiv {
+    width: 49.25%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  /* block6 random pick */
+  #block6 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B6Div2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B6Div3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B6Div4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    font-size: 14px;
+  }
+
+  /* B6Div 2 grid container */
+  .number-grid {
+    grid-template-columns: repeat(7, 24px);
+    gap: 5px;
+  }
+
+  /* for the 1-49 button */
+  .number {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 0px;
+    border: 1px solid white;
+    margin-bottom: 4px;
+  }
+
+  /* for the selected number before random pick */
+  .picks {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 0px;
+    border: 1px solid white;
+  }
+
+  /* B6Div3 */
+  .selectButton {
+    font-size: 12px;
+  }
+
+  /* B6Div4 */
+  #goButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .B6p {
+    margin-bottom: 4px;
+  }
+
+  #pickHowMany {
+    width: 40px;
+    height: 24px;
+    border-radius: 2px;
+    padding-left: 3px;
+  }
+
+  .borderGlow {
+    border: 2px solid brown;
+  }
+
+  /* B6Div5 random pick label and results */
+  #B6Div51 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B6Div52 {
+    margin-top: 4px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  /* block5 frequency table */
+  #block5 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B5Div1 {
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B5Div2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #numberOfDraws {
+    width: 40px;
+    height: 24px;
+    border-radius: 2px;
+    padding-left: 3px;
+  }
+
+  #gogoButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .atrpButton {
+    font-size: 10px;
+  }
+
+  #B5Div3 {
+    font-size: 11px;
+    margin-top: 3px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B5Div2 th {
+    font-size: 12px;
+  }
+
+  #B5Div2 td {
+    font-size: 12px;
+  }
+
+  #copyright {
+    font-size: 11px;
+  }
+
+  #footer {
+    width: 90%;
+    padding: 6px 0;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* Body */
+  #body {
+    background-color: black;
+  }
+
+  #topDivider {
+    width: 90%;
+    height: 0px;
+    background-color: white;
+    margin: auto;
+    display: none;
+  }
+
+  #bottomDivider {
+    width: 90%;
+    height: 0px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 0px;
+    display: none;
+  }
+
+  #midDivider {
+    height: 0px;
+    display: none;
+  }
+
+  /* block1 TOTORITHM */
+  #block1 {
+    color: white;
+    background-color: brown;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  #wholeDiv {
+    width: 90%;
+    background-color: black;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-right-width: 6px;
+    border-left-width: 6px;
+    border-color: white;
+    border-style: solid;
+    overflow: auto;
+  }
+
+  .verticalDivider {
+    width: 0%;
+    width: 0px;
+    height: 0;
+    display: none;
+  }
+
+  /* block2 Last 20 results */
+  #block2 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B2Div1 {
+    color: yellow;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #B2Div2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #th1,
+  #th2,
+  #th3 {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #th4,
+  #th5,
+  #th6,
+  #th7,
+  #th8,
+  #th9,
+  #th11 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    width: 30px;
+  }
+
+  #th1 {
+    width: 30px;
+  }
+
+  #th2 {
+    width: 120px;
+  }
+
+  #th3 {
+    width: 60px;
+  }
+
+  .wn {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+    background-color: orange;
+    color: black;
+  }
+
+  .serialInput,
+  .dateInput,
+  .drawInput {
+    height: 28px;
+    font-size: 15px;
+    text-align: left;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: px;
+    background-color: white;
+    color: black;
+  }
+
+  /* #th10 {
+    width: 2px;
+  }
+
+  td,
+  input {
+    width: 30px;
+  } */
+
+  .serialInput {
+    width: 30px;
+    padding-left: 3px;
+  }
+
+  .dateInput {
+    width: 120px;
+    padding-left: 3px;
+  }
+
+  .drawInput {
+    width: 60px;
+    padding-left: 3px;
+  }
+
+  .space {
+    width: 2px;
+    height: 26px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+
+  .spaceTD {
+    width: 2px;
+  }
+
+  .highlight {
+    background-color: greenyellow !important;
+  }
+
+  /* tips */
+  #B2Div3 {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #B2Div41 {
+    color: yellow;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #B2Div42 {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Use in both absent numbers and random pick numbers */
+  .number-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 20px;
+    max-width: 350px;
+  }
+
+  .number-box {
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    background-color: orange;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    align-content: center;
+  }
+
+  /* contains block6 and block5 */
+  #rightDiv {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top-width: 6px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  /* block6 random pick */
+  #block6 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B6Div2 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #B6Div3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #B6Div4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 20px;
+  }
+
+  /* B6Div 2 grid container */
+  .number-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 35px);
+    gap: 5px;
+  }
+
+  /* for the 1-49 button */
+  .number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid white;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+    margin-bottom: 5px;
+  }
+
+  /* for the selected number before random pick */
+  .picks {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid white;
+    cursor: default;
+    user-select: none;
+    background-color: brown;
+  }
+
+  /* in selectAll() and deselectAll() */
+  .number.selected {
+    background-color: brown;
+    color: white;
+    border-color: white;
+  }
+
+  /* B6Div3 */
+  .selectButton {
+    background-color: yellow;
+    font-size: 14px;
+  }
+
+  /* B6Div4 */
+  #goButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    padding: 0px;
+    border: 0px;
+    background-color: greenyellow;
+    color: black;
+  }
+
+  .B6p {
+    margin-bottom: 5px;
+  }
+
+  #pickHowMany {
+    width: 50px;
+    height: 30px;
+    border-radius: 2px;
+    padding-left: 5px;
+  }
+
+  .borderGlow {
+    border: 2px solid brown;
+  }
+
+  /* B6Div5 random pick label and results */
+  #B6Div51 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: yellow;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #B6Div52 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* block5 frequency table */
+  #block5 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top-width: 6px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  #B5Div1 {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #B5Div2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #numberOfDraws {
+    width: 50px;
+    height: 30px;
+    border-radius: 2px;
+    padding-left: 5px;
+  }
+
+  #gogoButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: greenyellow;
+    color: black;
+    padding: 0px;
+    border: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .atrpButton {
+    font-size: 12px;
+    color: black;
+    background-color: yellow;
+  }
+
+  #B5Div3 {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #B5Div2 th {
+    font-size: 16px;
+  }
+
+  #B5Div2 td {
+    font-size: 16px;
+  }
+
+  #copyright {
+    font-size: 10px;
+  }
+
+  #footer {
+    width: 90%;
+    padding: 6px 0;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  /* Body */
+  #body {
+    background-color: black;
+  }
+
+  #topDivider {
+    width: 90%;
+    height: 0px;
+    background-color: white;
+    margin: auto;
+    display: none;
+  }
+
+  #bottomDivider {
+    width: 90%;
+    height: 0px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 0px;
+    display: none;
+  }
+
+  #midDivider {
+    height: 0px;
+    display: none;
+  }
+
+  /* block1 TOTORITHM */
+  #block1 {
+    color: white;
+    background-color: brown;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+
+  #wholeDiv {
+    width: 90%;
+    background-color: black;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-color: white;
+    border-style: solid;
+    overflow: auto;
+  }
+
+  .verticalDivider {
+    width: 0%;
+    width: 0px;
+    height: 0;
+    display: none;
+  }
+
+  /* block2 Last 20 results */
+  #block2 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B2Div1 {
+    color: yellow;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B2Div2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #th1,
+  #th2,
+  #th3 {
+    color: white;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  #th4,
+  #th5,
+  #th6,
+  #th7,
+  #th8,
+  #th9,
+  #th11 {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    width: 22px;
+  }
+
+  #th1 {
+    width: 22px;
+  }
+
+  #th2 {
+    width: 80px;
+  }
+
+  #th3 {
+    width: 40px;
+  }
+
+  .wn {
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+  }
+
+  .serialInput,
+  .dateInput,
+  .drawInput {
+    height: 20px;
+    font-size: 11px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+  }
+
+  /* td,
+  input {
+    width: 22px;
+  }
+
+  #th10 {
+    width: 1.5px;
+  } */
+
+  .serialInput {
+    width: 22px;
+    padding-left: 2px;
+  }
+
+  .dateInput {
+    width: 80px;
+    padding-left: 2px;
+  }
+
+  .drawInput {
+    width: 40px;
+    padding-left: 2px;
+  }
+
+  .space {
+    width: 2px;
+    height: 18px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+
+  .spaceTD {
+    width: 2px;
+  }
+
+  .highlight {
+    background-color: greenyellow !important;
+  }
+
+  /* tips */
+  #B2Div3 {
+    color: white;
+    font-size: 11px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B2Div41 {
+    color: yellow;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B2Div42 {
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  /* Use in both absent numbers and random pick numbers */
+  .number-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 14px;
+    max-width: 250px;
+  }
+
+  .number-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 1.5px;
+    background-color: orange;
+    color: black;
+    font-size: 11px;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    align-content: center;
+  }
+
+  /* contains block6 and block5 */
+  #rightDiv {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  /* block6 random pick */
+  #block6 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B6Div2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B6Div3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B6Div4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-right: 14px;
+  }
+
+  /* B6Div 2 grid container */
+  .number-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 24px);
+    gap: 5px;
+  }
+
+  /* for the 1-49 button */
+  .number {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: black;
+    font-size: 12px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid white;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+    margin-bottom: 4px;
+  }
+
+  /* for the selected number before random pick */
+  .picks {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid white;
+    cursor: default;
+    user-select: none;
+    background-color: brown;
+  }
+
+  /* in selectAll() and deselectAll() */
+  .number.selected {
+    background-color: brown;
+    color: white;
+    border-color: white;
+  }
+
+  /* B6Div3 */
+  .selectButton {
+    background-color: yellow;
+    font-size: 12px;
+  }
+
+  /* B6Div4 */
+  #goButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    padding: 0px;
+    border: 0px;
+    background-color: greenyellow;
+    color: black;
+  }
+
+  .B6p {
+    margin-bottom: 4px;
+  }
+
+  #pickHowMany {
+    width: 40px;
+    height: 24px;
+    border-radius: 2px;
+    padding-left: 3px;
+  }
+
+  .borderGlow {
+    border: 2px solid brown;
+  }
+
+  /* B6Div5 random pick label and results */
+  #B6Div51 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: yellow;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B6Div52 {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  /* block5 frequency table */
+  #block5 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  #B5Div1 {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B5Div2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #numberOfDraws {
+    width: 40px;
+    height: 24px;
+    border-radius: 2px;
+    padding-left: 3px;
+  }
+
+  #gogoButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    background-color: greenyellow;
+    color: black;
+    padding: 0px;
+    border: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .atrpButton {
+    font-size: 10px;
+    color: black;
+    background-color: yellow;
+  }
+
+  #B5Div3 {
+    color: white;
+    font-size: 11px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  #B5Div2 th {
+    font-size: 12px;
+  }
+
+  #B5Div2 td {
+    font-size: 12px;
+  }
+
+  #copyright {
+    font-size: 9px;
+  }
+
+  #footer {
+    width: 90%;
+    padding: 4px 0;
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  /* Body */
+  #body {
+    background-color: black;
+  }
+
+  #topDivider {
+    width: 90%;
+    height: 0px;
+    background-color: white;
+    margin: auto;
+    display: none;
+  }
+
+  #bottomDivider {
+    width: 90%;
+    height: 0px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 0px;
+    display: none;
+  }
+
+  #midDivider {
+    height: 0px;
+    display: none;
+  }
+
+  /* block1 TOTORITHM */
+  #block1 {
+    color: white;
+    background-color: brown;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+
+  #wholeDiv {
+    width: 90%;
+    background-color: black;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-color: white;
+    border-style: solid;
+    overflow: auto;
+  }
+
+  .verticalDivider {
+    width: 0%;
+    width: 0px;
+    height: 0;
+    display: none;
+  }
+
+  /* block2 Last 20 results */
+  #block2 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B2Div1 {
+    color: yellow;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #B2Div2 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #th1,
+  #th2,
+  #th3 {
+    color: white;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  #th4,
+  #th5,
+  #th6,
+  #th7,
+  #th8,
+  #th9,
+  #th11 {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    width: 20px;
+  }
+
+  #th1 {
+    width: 20px;
+  }
+
+  #th2 {
+    width: 60px;
+  }
+
+  #th3 {
+    width: 30px;
+  }
+
+  .wn {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+    background-color: orange;
+    color: black;
+  }
+
+  .serialInput,
+  .dateInput,
+  .drawInput {
+    height: 18px;
+    font-size: 11px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 1px;
+  }
+
+  /* td,
+  input {
+    width: 20px;
+  }
+
+  #th10 {
+    width: 1.5px;
+  } */
+
+  .serialInput {
+    width: 20px;
+    padding-left: 1px;
+  }
+
+  .dateInput {
+    width: 60px;
+    padding-left: 1px;
+  }
+
+  .drawInput {
+    width: 30px;
+    padding-left: 1px;
+  }
+
+  .space {
+    width: 2px;
+    height: 16px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    background-color: white;
+  }
+
+  .spaceTD {
+    width: 2px;
+  }
+
+  .highlight {
+    background-color: greenyellow !important;
+  }
+
+  /* tips */
+  #B2Div3 {
+    color: white;
+    font-size: 10px;
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #B2Div41 {
+    color: yellow;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #B2Div42 {
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  /* Use in both absent numbers and random pick numbers */
+  .number-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 12px;
+    max-width: 220px;
+  }
+
+  .number-box {
+    width: 18px;
+    height: 18px;
+    border-radius: 1.5px;
+    background-color: orange;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    align-content: center;
+  }
+
+  /* contains block6 and block5 */
+  #rightDiv {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  /* block6 random pick */
+  #block6 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #B6Div2 {
+    margin-top: 20px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #B6Div3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #B6Div4 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 12px;
+  }
+
+  /* B6Div 2 grid container */
+  .number-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 22px);
+    gap: 5px;
+  }
+
+  /* for the 1-49 button */
+  .number {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    color: black;
+    font-size: 11px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid white;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+    margin-bottom: 3px;
+  }
+
+  /* for the selected number before random pick */
+  .picks {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    color: white;
+    font-size: 11px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid white;
+    cursor: default;
+    user-select: none;
+    background-color: brown;
+  }
+
+  /* in selectAll() and deselectAll() */
+  .number.selected {
+    background-color: brown;
+    color: white;
+    border-color: white;
+  }
+
+  /* B6Div3 */
+  .selectButton {
+    background-color: yellow;
+    font-size: 11px;
+  }
+
+  /* B6Div4 */
+  #goButton {
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    padding: 0px;
+    border: 0px;
+    background-color: greenyellow;
+    color: black;
+  }
+
+  .B6p {
+    margin-bottom: 3px;
+  }
+
+  #pickHowMany {
+    width: 35px;
+    height: 21px;
+    border-radius: 2px;
+    padding-left: 2px;
+  }
+
+  .borderGlow {
+    border: 2px solid brown;
+  }
+
+  /* B6Div5 random pick label and results */
+  #B6Div51 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: yellow;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #B6Div52 {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  /* block5 frequency table */
+  #block5 {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  #B5Div1 {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #B5Div2 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #numberOfDraws {
+    width: 35px;
+    height: 21px;
+    border-radius: 2px;
+    padding-left: 2px;
+  }
+
+  #gogoButton {
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    background-color: greenyellow;
+    color: black;
+    padding: 0px;
+    border: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .atrpButton {
+    font-size: 9px;
+    color: black;
+    background-color: yellow;
+  }
+
+  #B5Div3 {
+    color: white;
+    font-size: 10px;
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  #B5Div2 th {
+    font-size: 11px;
+  }
+
+  #B5Div2 td {
+    font-size: 11px;
+  }
+
+  #copyright {
+    font-size: 9px;
+  }
+
+  #footer {
+    width: 90%;
+    padding: 4px 0;
+    font-size: 9px;
+  }
+}
