@@ -15,7 +15,7 @@
   height: 6px;
   background-color: white;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 #midDivider {
@@ -257,7 +257,7 @@ input {
 }
 
 #B6Div2 {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 5px;
   margin-left: 20px;
   margin-right: 20px;
@@ -349,10 +349,14 @@ input {
 }
 
 #pickHowMany {
-  width: 50px;
+  width: 80px;
   height: 30px;
   border-radius: 2px;
   padding-left: 5px;
+}
+
+#pickHowMany::placeholder {
+  font-size: 16px;
 }
 
 .borderGlow {
@@ -400,16 +404,20 @@ input {
 
 #B5Div2 {
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 #numberOfDraws {
-  width: 50px;
+  width: 70px;
   height: 30px;
   border-radius: 2px;
   padding-left: 5px;
+}
+
+#numberOfDraws::placeholder {
+  font-size: 16px;
 }
 
 #gogoButton {
@@ -453,20 +461,16 @@ input {
 }
 
 #footer {
-  position: fixed;
-  margin-top: 15px;
-  bottom: 0;
-  left: 0;
   width: 90%;
-  /* background-color: brown; */
   color: white;
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
-  z-index: 1000;
-  display: flex;
-  justify-content: center; /* horizontal centering */
-  align-items: center; /* vertical centering */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -496,6 +500,7 @@ input {
     width: 75%;
     padding: 10px 0;
     font-size: 14px;
+    margin-bottom: 20px;
   }
 }
 
@@ -524,6 +529,7 @@ input {
     width: 85%;
     padding: 10px 0;
     font-size: 14px;
+    margin-bottom: 20px;
   }
 }
 
@@ -536,7 +542,7 @@ input {
   #bottomDivider {
     width: 90%;
     height: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   #midDivider {
@@ -737,7 +743,7 @@ input {
   }
 
   #B6Div2 {
-    margin-top: 20px;
+    margin-top: 17px;
     margin-bottom: 5px;
     margin-left: 17px;
   }
@@ -801,10 +807,14 @@ input {
   }
 
   #pickHowMany {
-    width: 45px;
+    width: 70px;
     height: 27px;
     border-radius: 2px;
     padding-left: 4px;
+  }
+
+  #pickHowMany::placeholder {
+    font-size: 13px;
   }
 
   .borderGlow {
@@ -849,10 +859,14 @@ input {
   }
 
   #numberOfDraws {
-    width: 45px;
+    width: 60px;
     height: 27px;
     border-radius: 2px;
     padding-left: 4px;
+  }
+
+  #numberOfDraws::placeholder {
+    font-size: 13px;
   }
 
   #gogoButton {
@@ -885,13 +899,14 @@ input {
   }
 
   #copyright {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   #footer {
     width: 90%;
     padding: 8px 0;
-    font-size: 12px;
+    font-size: 13px;
+    margin-bottom: 18px;
   }
 }
 
@@ -904,7 +919,7 @@ input {
   #bottomDivider {
     width: 90%;
     height: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   #midDivider {
@@ -1109,7 +1124,7 @@ input {
   }
 
   #B6Div2 {
-    margin-top: 20px;
+    margin-top: 14px;
     margin-bottom: 5px;
     margin-left: 14px;
     margin-right: 14px;
@@ -1175,10 +1190,14 @@ input {
   }
 
   #pickHowMany {
-    width: 40px;
+    width: 65px;
     height: 24px;
     border-radius: 2px;
     padding-left: 3px;
+  }
+
+  #pickHowMany::placeholder {
+    font-size: 12px;
   }
 
   .borderGlow {
@@ -1226,10 +1245,14 @@ input {
   }
 
   #numberOfDraws {
-    width: 40px;
+    width: 55px;
     height: 24px;
     border-radius: 2px;
     padding-left: 3px;
+  }
+
+  #numberOfDraws::placeholder {
+    font-size: 12px;
   }
 
   #gogoButton {
@@ -1263,13 +1286,14 @@ input {
   }
 
   #copyright {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   #footer {
     width: 90%;
     padding: 6px 0;
-    font-size: 11px;
+    font-size: 12px;
+    margin-bottom: 16px;
   }
 }
 
@@ -1319,7 +1343,7 @@ input {
     background-color: black;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-top-width: 6px;
     border-bottom-width: 6px;
     border-right-width: 6px;
@@ -1550,7 +1574,7 @@ input {
   }
 
   #B6Div2 {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 5px;
     margin-left: 20px;
     margin-right: 20px;
@@ -1642,10 +1666,14 @@ input {
   }
 
   #pickHowMany {
-    width: 50px;
+    width: 80px;
     height: 30px;
     border-radius: 2px;
     padding-left: 5px;
+  }
+
+  #pickHowMany::placeholder {
+    font-size: 16px;
   }
 
   .borderGlow {
@@ -1679,8 +1707,8 @@ input {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    border-top-width: 6px;
-    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 6px;
     border-right-width: 0px;
     border-left-width: 0px;
     border-color: white;
@@ -1705,10 +1733,14 @@ input {
   }
 
   #numberOfDraws {
-    width: 50px;
+    width: 70px;
     height: 30px;
     border-radius: 2px;
     padding-left: 5px;
+  }
+
+  #numberOfDraws::placeholder {
+    font-size: 16px;
   }
 
   #gogoButton {
@@ -1748,13 +1780,13 @@ input {
   }
 
   #copyright {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #footer {
     width: 90%;
     padding: 6px 0;
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -1804,7 +1836,7 @@ input {
     background-color: black;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-top-width: 4px;
     border-bottom-width: 4px;
     border-right-width: 4px;
@@ -2029,7 +2061,7 @@ input {
   }
 
   #B6Div2 {
-    margin-top: 20px;
+    margin-top: 14px;
     margin-bottom: 5px;
     margin-left: 14px;
     margin-right: 14px;
@@ -2121,10 +2153,14 @@ input {
   }
 
   #pickHowMany {
-    width: 40px;
+    width: 65px;
     height: 24px;
     border-radius: 2px;
     padding-left: 3px;
+  }
+
+  #pickHowMany::placeholder {
+    font-size: 12px;
   }
 
   .borderGlow {
@@ -2158,8 +2194,8 @@ input {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    border-top-width: 4px;
-    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 4px;
     border-right-width: 0px;
     border-left-width: 0px;
     border-color: white;
@@ -2184,10 +2220,14 @@ input {
   }
 
   #numberOfDraws {
-    width: 40px;
+    width: 55px;
     height: 24px;
     border-radius: 2px;
     padding-left: 3px;
+  }
+
+  #numberOfDraws::placeholder {
+    font-size: 12px;
   }
 
   #gogoButton {
@@ -2227,13 +2267,13 @@ input {
   }
 
   #copyright {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   #footer {
     width: 90%;
     padding: 4px 0;
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 
@@ -2283,7 +2323,7 @@ input {
     background-color: black;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-top-width: 4px;
     border-bottom-width: 4px;
     border-right-width: 4px;
@@ -2357,11 +2397,11 @@ input {
   }
 
   #th2 {
-    width: 60px;
+    width: 70px;
   }
 
   #th3 {
-    width: 30px;
+    width: 35px;
   }
 
   .wn {
@@ -2405,12 +2445,12 @@ input {
   }
 
   .dateInput {
-    width: 60px;
+    width: 70px;
     padding-left: 1px;
   }
 
   .drawInput {
-    width: 30px;
+    width: 35px;
     padding-left: 1px;
   }
 
@@ -2512,7 +2552,7 @@ input {
   }
 
   #B6Div2 {
-    margin-top: 20px;
+    margin-top: 12px;
     margin-bottom: 3px;
     margin-left: 12px;
     margin-right: 12px;
@@ -2604,10 +2644,14 @@ input {
   }
 
   #pickHowMany {
-    width: 35px;
+    width: 60px;
     height: 21px;
     border-radius: 2px;
     padding-left: 2px;
+  }
+
+  #pickHowMany::placeholder {
+    font-size: 10px;
   }
 
   .borderGlow {
@@ -2641,8 +2685,8 @@ input {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    border-top-width: 4px;
-    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 4px;
     border-right-width: 0px;
     border-left-width: 0px;
     border-color: white;
@@ -2667,10 +2711,14 @@ input {
   }
 
   #numberOfDraws {
-    width: 35px;
+    width: 50px;
     height: 21px;
     border-radius: 2px;
     padding-left: 2px;
+  }
+
+  #numberOfDraws::placeholder {
+    font-size: 10px;
   }
 
   #gogoButton {
@@ -2710,12 +2758,12 @@ input {
   }
 
   #copyright {
-    font-size: 9px;
+    font-size: 10px;
   }
 
   #footer {
     width: 90%;
     padding: 4px 0;
-    font-size: 9px;
+    font-size: 10px;
   }
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Overview</title>
+    <title>TOTORITHM</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +37,7 @@
       <!-- Last 20 results -->
       <div class="verticalDivider"></div>
       <div id="block2">
-        <div id="B2Div1">Last 20 results:</div>
+        <div id="B2Div1">Last 20 TOTO results:</div>
         <div id="B2Div2">
           <table>
             <thead>
@@ -45,12 +45,12 @@
                 <th id="th1">S/N</th>
                 <th id="th2">Date</th>
                 <th id="th3">Draw#</th>
-                <th id="th4">W1</th>
-                <th id="th5">W2</th>
-                <th id="th6">W3</th>
-                <th id="th7">W4</th>
-                <th id="th8">W5</th>
-                <th id="th9">W6</th>
+                <th id="th4">N1</th>
+                <th id="th5">N2</th>
+                <th id="th6">N3</th>
+                <th id="th7">N4</th>
+                <th id="th8">N5</th>
+                <th id="th9">N6</th>
                 <th></th>
                 <th id="th11">EN</th>
               </tr>
@@ -59,8 +59,8 @@
           </table>
         </div>
         <div id="B2Div3">
-          <span style="color: yellow">Tips: </span> Hover on any drawn numbers
-          to show the winning pattern
+          <span style="color: yellow">Tips: </span> Choose any drawn numbers to
+          show the winning pattern
         </div>
         <div id="B2Div4">
           <div id="B2Div41">Absent numbers in the last 20 draws:</div>
@@ -69,6 +69,33 @@
       </div>
       <div class="verticalDivider"></div>
       <div id="rightDiv">
+        <!-- Frequency -->
+        <div id="block5">
+          <div id="B5Div1">
+            Frequency of winning numbers in the last
+            <input
+              type="number"
+              id="numberOfDraws"
+              min="2"
+              max="20"
+              placeholder="2-20"
+              step="1"
+            />
+            draws:
+            <div>
+              <button type="button" id="gogoButton" onclick="showFreq()">
+                Go
+              </button>
+            </div>
+          </div>
+          <div id="B5Div2"></div>
+          <div id="B5Div3" style="display: none">
+            <span style="color: yellow">Tips: </span>Use the "add" button to add
+            numbers for a fast random pick
+          </div>
+        </div>
+        <div id="midDivider"></div>
+        <!-- Random pick -->
         <div id="block6">
           <div class="number-grid" id="B6Div2"></div>
           <div id="B6Div3">
@@ -88,9 +115,10 @@
                 min="1"
                 max="12"
                 step="1"
+                placeholder="max 12"
                 required
               />
-              (1-12) from the selected numbers
+              from the selected numbers
             </p>
             <button type="button" id="goButton" onclick="pickRandom()">
               Go
@@ -102,36 +130,17 @@
             <div id="B6Div52" class="number-container"></div>
           </div>
         </div>
-        <div id="midDivider"></div>
-        <!-- Frequency -->
-        <div id="block5">
-          <div id="B5Div1">
-            Frequency of winning numbers in the last
-            <input type="number" id="numberOfDraws" min="2" max="20" step="1" />
-            (2-20) draws:
-            <div>
-              <button type="button" id="gogoButton" onclick="showFreq()">
-                Go
-              </button>
-            </div>
-          </div>
-          <div id="B5Div2"></div>
-          <div id="B5Div3" style="display: none">
-            <span style="color: yellow">Tips: </span>Use the "add" button to add
-            numbers for a fast random pick
-          </div>
-        </div>
       </div>
       <div class="verticalDivider"></div>
     </div>
-
+    <!-- copyright -->
     <div id="bottomDivider"></div>
-    <!-- <div id="footer">
+    <div id="footer">
       <p id="copyright">
         &copy; <span id="trademark"></span> bigeyedog.studio All rights
         reserved.
       </p>
-    </div> -->
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
