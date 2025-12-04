@@ -62,17 +62,6 @@ for (let i = 0; i < 20; i++) {
 //populate the last 20 results into the table
 const resultArray = [
   {
-    date: "2025-09-22",
-    draw: 4115,
-    w1: 8,
-    w2: 15,
-    w3: 22,
-    w4: 24,
-    w5: 43,
-    w6: 47,
-    extra: 44,
-  },
-  {
     date: "2025-09-25",
     draw: 4116,
     w1: 1,
@@ -280,6 +269,17 @@ const resultArray = [
     w5: 32,
     w6: 46,
     extra: 16,
+  },
+  {
+    date: "2025-12-01",
+    draw: 4135,
+    w1: 2,
+    w2: 10,
+    w3: 24,
+    w4: 35,
+    w5: 45,
+    w6: 49,
+    extra: 37,
   },
 ];
 
