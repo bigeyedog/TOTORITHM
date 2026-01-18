@@ -62,17 +62,6 @@ for (let i = 0; i < 20; i++) {
 //populate the last 20 results into the table
 const resultArray = [
   {
-    date: "2025-11-06",
-    draw: 4128,
-    w1: 3,
-    w2: 20,
-    w3: 24,
-    w4: 29,
-    w5: 32,
-    w6: 44,
-    extra: 46,
-  },
-  {
     date: "2025-11-10",
     draw: 4129,
     w1: 2,
@@ -281,6 +270,17 @@ const resultArray = [
     w6: 43,
     extra: 12,
   },
+  {
+    date: "2026-01-15",
+    draw: 4148,
+    w1: 16,
+    w2: 32,
+    w3: 34,
+    w4: 35,
+    w5: 36,
+    w6: 41,
+    extra: 14,
+  },
 ];
 
 for (let i = 0; i < resultArray.length; i++) {
@@ -369,7 +369,7 @@ function pickRandom() {
 
   const selectedEls = document.querySelectorAll(".number.selected");
   const selectedNums = Array.from(selectedEls).map((el) =>
-    parseInt(el.textContent, 10)
+    parseInt(el.textContent, 10),
   );
 
   pickedContainer.innerHTML = ""; // Clear previous picks
